@@ -13,5 +13,12 @@
     "pitch"
   ],
   "author": "rp",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "parcel": "^2.0.0",
+    "regenerator": "^0.14.7",
+    "runtime": "^0.14.1",
+    "sass": "^1.26.10"
+  }
 }
