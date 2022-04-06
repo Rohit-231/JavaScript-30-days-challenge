@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text to Speech</title>
+</head>
+<body>
+  <h1>Text to Speech Convertor</h1>
+  <form class="form1">
+
+    <label for="textInput">Enter text to convert to speech</label><br>
+    <input type="text" id="textInput" name="textInput" 
+      placeholder="type something"><br><br>
+
+    <label for="vol">Select the volume from 0 to 10</label><br>
+    <input type="range" min="0" max="10" value="5" class="slider" name="vol">
+    <!-- <output for="vol" onforminput="value = vol.valueAsNumber;"></output> -->
+    <br><br>
+
+    <label for="rate">Select the rate from 1 to 10 (normal rate: 1)</label><br>
+    <input type="range" min="1" max="10" value="1" class="slider" name="rate"><br><br>
+
+    <label for="pitch">Select the pitch from 0 to 10 (normal pitch: 10)</label><br>
+    <input type="range" min="0" max="10" value="10" class="slider" name="pitch"><br><br>
+
+    <label for="accent">Select the accent</label><br>
+    <select name="accent" id="accent">
+      <option value="en-US">US English</option>
+      <option value="hi-IN">हिन्दी Hindi</option>
+      <option value="en-GB">UK English</option>
+    </select>
+
+    <button>submit</button>
+  </form>
+
+  <script src="script.js"></script>  
+</body>
+</html>
