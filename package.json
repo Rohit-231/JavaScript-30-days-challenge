@@ -1,0 +1,17 @@
+{
+  "name": "text_to_speech",
+  "version": "1.0.0",
+  "description": "a webpage to convert text into speech",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [
+    "text",
+    "speech",
+    "pitch"
+  ],
+  "author": "rp",
+  "license": "ISC"
+}
