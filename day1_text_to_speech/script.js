@@ -12,7 +12,7 @@ formDetails.addEventListener('submit',function(e){
   const data=Object.fromEntries(datamsg);
 
   msg=data.textInput;
-  console.log(msg);
+  console.log("new changes");
 
   vol=data.vol;
   console.log(vol*0.1);
