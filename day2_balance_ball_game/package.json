@@ -1,0 +1,27 @@
+{
+  "name": "balance_ball_game",
+  "version": "1.0.0",
+  "description": "a fun game balance ball game easy",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [
+    "fun",
+    "game",
+    "balance",
+    "ball",
+    "game",
+    "kids",
+    "exciting"
+  ],
+  "author": "rp",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "parcel": "^2.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.26.10"
+  }
+}
