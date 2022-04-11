@@ -1,0 +1,23 @@
+{
+  "name": "day4_random_number_generator",
+  "version": "1.0.0",
+  "description": "a small function to generate random values",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [
+    "rando",
+    "number",
+    "generate"
+  ],
+  "author": "rp",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "parcel": "^2.0.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.26.10"
+  }
+}

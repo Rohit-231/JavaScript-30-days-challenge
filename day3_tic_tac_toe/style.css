@@ -1,0 +1,28 @@
+.boxes{
+    display: grid;
+    width:60%;
+    height:100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    background-color: #ddd;
+    /* gap:20px; */
+}
+
+.box{
+    background-color: aqua;
+    color: aqua;
+    /* margin: 15px 15px; */
+    height: 100px;
+    width: 100px;
+    justify-items: center;
+}
+
+.redColor{
+    background-color: red;
+    color:red;
+}
+
+.greenColor{
+    background-color: green;
+    color:green;
+}
